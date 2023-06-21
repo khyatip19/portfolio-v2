@@ -56,13 +56,13 @@ const Humburger = ({ state, setState }) => {
               {/* <a href='#' target='_blan'>
                 <i class='far fa-file'></i>
               </a> */}
-              <a href='https://www.linkedin.com/in/thakershivam/' target='_blan'>
+              <a href='https://www.linkedin.com/in/khyati-prajapati/' target='_blan'>
                 <i className='fab fa-linkedin-in'></i>
               </a>
-              <a href='https://github.com/shivam327' target='_blan'>
+              <a href='https://github.com/khyatip19' target='_blan'>
                 <i className='fab fa-github'></i>
               </a>
-              <a href={'mailto: shivamthaker1999@gmail.com'}>
+              <a href={'mailto: khyatip19@gmail.com'}>
                 <i className='fas fa-envelope'></i>
               </a>
             </Social>

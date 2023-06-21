@@ -10,7 +10,7 @@ const Aboutpage = () => {
     if (window.location.pathname === '/') {
       setTime(100);
     }
-    document.title = 'Shivam Thaker -- About';
+    document.title = 'Khyati Prajapati -- About';
   }, []);
 
   return (
@@ -18,7 +18,7 @@ const Aboutpage = () => {
       <Container>
         <Design>
           <h1 data-aos='fade-left' data-aos-delay={time} data-aos-duration='1000'>
-            Shivam Thaker
+            Khyati Prajapati
           </h1>
           <h2 data-aos='fade-right' data-aos-delay={time} data-aos-duration='1000'>
             &lt;About /&gt;

@@ -42,7 +42,7 @@ const Homepage = () => {
             HEY, I'M
           </h2>
           <h1 data-aos='flip-up' data-aos-delay='500' data-aos-duration='1000'>
-            SHIVAM THAKER
+            KHYATI PRAJAPATI
           </h1>
           <h3 data-aos='flip-up' data-aos-delay='1000' data-aos-duration='1000'>
             A Full-Stack developer from
@@ -57,7 +57,7 @@ const Homepage = () => {
       <ContainerA>
         <Design>
           <h1 data-aos='fade-left' data-aos-delay='100' data-aos-duration='1000'>
-            Shivam Thaker
+            Khyati Prajapati
           </h1>
           <h2 data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000'>
             &lt;About /&gt;

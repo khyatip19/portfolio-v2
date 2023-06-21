@@ -12,17 +12,17 @@ const Contactbar = () => {
           <img src="/images/resume.png" alt="" />{" "}
         </Circle>
       </a> */}
-      <a href='https://www.linkedin.com/in/thakershivam/' target='_blan'>
+      <a href='https://www.linkedin.com/in/khyati-prajapati/' target='_blan'>
         <Circle style={{ backgroundColor: '#E5F1F8' }}>
           <img src='/images/linkedin.svg' alt='' />
         </Circle>
       </a>
-      <a href='https://github.com/shivam327' target='_blan'>
+      <a href='https://github.com/khyatip19' target='_blan'>
         <Circle style={{ backgroundColor: 'rgba(0,0,0,0.2)' }}>
           <img src='/images/github.png' alt='' />
         </Circle>
       </a>
-      <a href={'mailto: shivamthaker1999@gmail.com'}>
+      <a href={'mailto: khyatip19@gmail.com'}>
         <Circle style={{ backgroundColor: '#FEECEA' }}>
           <img src='/images/mail.svg' alt='' />
         </Circle>
