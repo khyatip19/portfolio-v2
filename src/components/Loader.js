@@ -6,7 +6,7 @@ const Loader = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     Aos.init({ duration: 1000 });
-    document.title = 'Shivam Thaker Portfolio';
+    document.title = 'Khyati Prajapati Portfolio';
   }, []);
 
   return (
