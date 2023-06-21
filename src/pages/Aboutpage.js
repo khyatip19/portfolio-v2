@@ -190,7 +190,7 @@ const Design = styled.div`
 
   & > h2 {
     color: transparent;
-    font-size: 20rem;
+    font-size: 10rem;
     position: absolute;
     z-index: -3;
     -webkit-text-stroke-width: 1px;
