@@ -190,7 +190,7 @@ const Design = styled.div`
 
   & > h2 {
     color: transparent;
-    font-size: 10rem;
+    font-size: 20rem;
     position: absolute;
     z-index: -3;
     -webkit-text-stroke-width: 1px;
@@ -211,7 +211,7 @@ const Design = styled.div`
   }
 
   & > h1 {
-    font-size: 15rem;
+    font-size: 8rem;
     font-weight: 500;
     position: absolute;
     z-index: 2;
@@ -259,7 +259,7 @@ const Container = styled.div`
     width: 50%;
     text-align: left;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2rem;
 
     @media (max-width: 768px) {
       margin: 2rem 0;
@@ -306,7 +306,7 @@ const Design2 = styled(Design)`
   }
 
   & > h1 {
-    font-size: 15rem;
+    font-size: 8rem;
     font-weight: 500;
     position: absolute;
     z-index: 2;
