@@ -61,7 +61,7 @@ const Navbar = ({ history }) => {
         <Logo>
           <Link to="/">
             <h1 style={{ color: `${state.color}` }} id="logo">
-              ST
+              KP
             </h1>
           </Link>
         </Logo>
@@ -87,9 +87,9 @@ const Nav = styled.nav`
   height: 10vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 8rem;
+  padding: 0 2rem;
   color: #fff;
   transition: all 0.4s ease-in-out;
 

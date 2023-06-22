@@ -45,7 +45,7 @@ const Homepage = () => {
             KHYATI PRAJAPATI
           </h1>
           <h3 data-aos='flip-up' data-aos-delay='1000' data-aos-duration='1000'>
-            A Full-Stack developer from
+            A Full-Stack Developer from 
             <span style={{ color: 'orange' }}> India</span>.
           </h3>
           {/* <Button text="Contact" /> */}
@@ -64,12 +64,15 @@ const Homepage = () => {
           </h2>
         </Design>
         <h3 data-aos='fade-up' data-aos-delay='300' data-aos-duration='1000'>
-          I am a full-stack creative developer based in Mumbai, India. I am a<span> Information Technology</span> undergraduate from Mumbai University.
+          {/* I am a full-stack creative developer based in Mumbai, India.  */}
+          I love building mobile apps and websites.
+          I am an<span> Information Technology</span> undergraduate from Mumbai University.
           {/* and also did some coursework in UI/UX and SEO. */}
         </h3>
         <h4 data-aos='fade-up' data-aos-delay='450' data-aos-duration='1000'>
-          I enjoy using My Skills to empower people to achieve goals. My development stack is focused on building Scalable & incredible fast websites
-          and WebApps with delightful interactions.
+          I enjoy using my skills to empower people to achieve goals. 
+          My development stack is focused on building Scalable & incredible fast websites
+          and Mobile Apps with delightful interactions.
         </h4>
         <Circle data-aos='zoom-in' data-aos-delay='300' data-aos-duration='1000'>
           <Link to='/about'>
@@ -79,8 +82,7 @@ const Homepage = () => {
       </ContainerA>
 
       <ContainerLarge>
-        <h1>&lt; Selected</h1>
-        <h1>Projects /&gt;</h1>
+        <h1>Selected Projects</h1>
         {/* <Row>
           <Col
             style={{
@@ -429,7 +431,7 @@ const Design = styled.div`
   }
 
   & > h1 {
-    font-size: 15rem;
+    font-size: 10rem;
     font-weight: 500;
     position: absolute;
     z-index: 0;
@@ -514,9 +516,9 @@ const LeftHero = styled.div`
   }
 
   & > h3 {
-    font-family: 'Dela Gothic One', cursive;
-    text-transform: uppercase;
-    font-size: 7rem;
+    // font-family: 'Dela Gothic One', cursive;
+    // text-transform: uppercase;
+    font-size: 4rem;
     max-width: 70%;
 
     & > span {

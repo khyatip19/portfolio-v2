@@ -26,11 +26,11 @@ const Workpage = () => {
         </h3>
       </Container>
 
-      {/* <Container>
+      <Container>
         <Row>
           <Col>
             <Link to="/project/7">
-              <Moreproject name="TrackIt" id={7} />
+              <Moreproject name="LeprosyDetect" id={7} />
             </Link>
             <hr
               data-aos="fade-right"
@@ -38,7 +38,7 @@ const Workpage = () => {
               data-aos-duration="1000"
             />
             <Link to="/project/6">
-              <Moreproject name="Portfolio 2019" id={6} />
+              <Moreproject name="Cropifier" id={6} />
             </Link>
             <hr
               data-aos="fade-right"
@@ -46,18 +46,18 @@ const Workpage = () => {
               data-aos-duration="1000"
             />
             <Link to="/project/8">
-              <Moreproject name="Bankist" id={8} />
+              <Moreproject name="Leprosy Patient's Digital Database Website" id={8} />
             </Link>
-            <hr
+            {/* <hr
               data-aos="fade-right"
               data-aos-delay="100"
               data-aos-duration="1000"
             />
             <Link to="/project/2">
               <Moreproject name="TrackerX" id={2} />
-            </Link>
+            </Link> */}
           </Col>
-          <Col>
+          {/* <Col>
             <Link to="/project/1">
               <Moreproject name="Dev.to Clone" id={1} />
             </Link>
@@ -85,9 +85,9 @@ const Workpage = () => {
             <Link to="/project/3">
               <Moreproject name="devFriend.io" id={3} />
             </Link>
-          </Col>
+          </Col> */}
         </Row>
-      </Container> */}
+      </Container>
       <BG
         style={{
           backgroundColor: 'rgb(49,196,140, 0.2)',

@@ -148,7 +148,7 @@ const Container = styled.div`
 
     & > li {
       list-style: none;
-      font-size: 8rem;
+      font-size: 7rem;
       margin: 2rem 0;
       line-height: 14rem;
       font-weight: 700;

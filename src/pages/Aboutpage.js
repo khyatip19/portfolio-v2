@@ -195,7 +195,7 @@ const Design = styled.div`
     z-index: -3;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--yellow);
-    bottom: 10%;
+    bottom: 9%;
     left: 0%;
 
     @media (max-width: 768px) {
@@ -211,8 +211,8 @@ const Design = styled.div`
   }
 
   & > h1 {
-    font-size: 8rem;
-    font-weight: 500;
+    font-size: 6rem;
+    font-weight: 200;
     position: absolute;
     z-index: 2;
     bottom: 10%;

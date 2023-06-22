@@ -111,25 +111,25 @@ const Projectpage = () => {
             <img src='/images/pose/pose_m14.png' alt='' />
           </Col>
           <Col>
-            <Link to='/project/1'>
+            {/* <Link to='/project/1'>
               <Moreproject name='Dev.to Clone' id={1} />
             </Link>
-            <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
+            <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' /> */}
             <Link to='/project/6'>
-              <Moreproject name='Portfolio 2019' id={6} />
+              <Moreproject name='Cropifier' id={6} />
             </Link>
             <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/8'>
-              <Moreproject name='Bankist' id={8} />
+              <Moreproject name="Leprosy Patient's Digital Database Website" id={8} />
             </Link>
-            <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
+            {/* <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/5'>
               <Moreproject name='Netflix Clone' id={5} />
-            </Link>
-            <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
+            </Link> */}
+            {/* <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/2'>
               <Moreproject name='TrackerX' id={2} />
-            </Link>
+            </Link> */}
           </Col>
         </Row>
       </Container>
@@ -206,7 +206,7 @@ const LeftHero = styled.div`
     position: absolute;
     font-family: 'Dela Gothic One', cursive;
     text-transform: uppercase;
-    font-size: 15rem;
+    font-size: 7rem;
     z-index: -2;
 
     @media (max-width: 767px) {
@@ -218,7 +218,7 @@ const LeftHero = styled.div`
     position: absolute;
     font-family: 'Dela Gothic One', cursive;
     text-transform: uppercase;
-    font-size: 15rem;
+    font-size: 7rem;
     -webkit-text-stroke-width: 1px;
     color: transparent;
     -webkit-text-stroke-color: #000;
@@ -233,7 +233,7 @@ const LeftHero = styled.div`
     position: absolute;
     width: 100%;
     height: auto;
-    left: 40%;
+    left: 15%;
     z-index: 0;
     border-radius: 0.5rem;
 
