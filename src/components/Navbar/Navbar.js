@@ -8,7 +8,7 @@ const Navbar = ({ history }) => {
   const [state, setState] = useState({
     initial: false,
     clicked: null,
-    menuName: "<Menu />",
+    menuName: "Menu ",
     color: "#191919",
   });
   // State of our button
@@ -18,7 +18,7 @@ const Navbar = ({ history }) => {
   useEffect(() => {
     //Listening for page changes.
     history.listen(() => {
-      setState({ clicked: false, menuName: "<Menu />", color: "#191919" });
+      setState({ clicked: false, menuName: "Menu ", color: "#191919" });
     });
   }, [history]);
 
@@ -29,19 +29,19 @@ const Navbar = ({ history }) => {
       setState({
         initial: null,
         clicked: true,
-        menuName: "<Close />",
+        menuName: "Close ",
         color: "#f2efe7",
       });
     } else if (state.clicked === true) {
       setState({
         clicked: !state.clicked,
-        menuName: "<Menu />",
+        menuName: "Menu ",
         color: "#191919",
       });
     } else if (state.clicked === false) {
       setState({
         clicked: !state.clicked,
-        menuName: "<Close />",
+        menuName: "Close ",
         color: "#f2efe7",
       });
     }

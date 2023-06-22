@@ -41,13 +41,16 @@ const Humburger = ({ state, setState }) => {
         <Container>
           <ul>
             <li>
-              <Link to='/work'>&lt;Works /&gt;</Link>
+              {/* <Link to='/work'>&lt;Works /&gt;</Link> */}
+              <Link to='/work'>Works </Link>
             </li>
             <li>
-              <Link to='/about'>&lt;About Me /&gt;</Link>
+              {/* <Link to='/about'>&lt;About Me /&gt;</Link> */}
+              <Link to='/about'>About Me </Link>
             </li>
             <li>
-              <Link to='/contact'>&lt;Contact Me /&gt;</Link>
+              {/* <Link to='/contact'>&lt;Contact Me /&gt;</Link> */}
+              <Link to='/contact'>Contact Me </Link>
             </li>
           </ul>
           <Info>
