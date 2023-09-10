@@ -17,7 +17,8 @@ const Contactpage = () => {
             &lt;Contact /&gt;
           </h2>
         </Design>
-        <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m12.png' alt='' />
+        <BG style={{ backgroundColor: '#FEECEA' }} data-aos='zoom-in' data-aos-duration='2000'></BG>
+        <img data-aos='zoom-in' data-aos-duration='2000' style={{left: '60%', top:'5%', height:'auto'}} src='/images/posef/dancing_trans.png' alt='' />
         {/* <span>
           <a
             href="https://drive.google.com/file/d/1r5z5b76Gd1xCsxYzIGasYC8snlVN8fpw/view?usp=sharing"
@@ -130,6 +131,14 @@ const Container = styled.div`
       width: 80%;
     }
   }
+`;
+const BG = styled.div`
+  position: absolute;
+  left: 53%;
+  width: 70rem;
+  height: 70rem;
+  border-radius: 50%;
+  z-index: -5;
 `;
 
 export default Contactpage;

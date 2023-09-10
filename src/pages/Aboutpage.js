@@ -24,7 +24,7 @@ const Aboutpage = () => {
             &lt;About /&gt;
           </h2>
         </Design>
-        <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m12.png' alt='' />
+        <img data-aos='zoom-in' data-aos-duration='2000' src='/images/posef/phone_trans.png' alt='' />
         <h3 data-aos='fade-up' data-aos-delay={time} data-aos-duration='1000'>
           I am a Full-stack creative developer based in Mumbai,
           <span> India</span>. I am a Information Technology graduate and did some coursework to the SEO.
@@ -51,8 +51,8 @@ const Aboutpage = () => {
           <h2 data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000'>
             TECH
           </h2>
-          <img src='/images/pose/pose_m14.png' alt='' />
-          <BG style={{ backgroundColor: '#E5F1F8', top: '10%', left: '57%' }}></BG>
+          {/* <img src='/images/pose/pose_m14.png' alt='' />
+          <BG style={{ backgroundColor: '#E5F1F8', top: '10%', left: '57%' }}></BG> */}
         </Design2>
         <ToolBox>
           <Circle data-aos='zoom-in' data-aos-delay='3500' data-aos-duration='1000' style={{ backgroundColor: '#E5F1F8' }}>
@@ -130,8 +130,8 @@ const Aboutpage = () => {
           <h2 data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000'>
             About Me
           </h2>
-          <img src='/images/pose/pose_m22.png' alt='' />
-          <BG style={{ backgroundColor: '#E5F1F8', top: '10%', left: '57%' }}></BG>
+          {/* <img src='/images/pose/pose_m22.png' alt='' />
+          <BG style={{ backgroundColor: '#E5F1F8', top: '10%', left: '57%' }}></BG> */}
         </Design2>
         <h4 data-aos='fade-left' data-aos-duration='1000'>
           There’s nothing Good than enjoying more than developing good WebApps and Software for Industry. I believe that people should do things they

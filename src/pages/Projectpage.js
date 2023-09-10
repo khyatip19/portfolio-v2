@@ -108,7 +108,7 @@ const Projectpage = () => {
                 left: '-15%',
               }}
             ></BG>
-            <img src='/images/pose/pose_m14.png' alt='' />
+            <img src='/images/posef/tablet_trans.png' alt='' />
           </Col>
           <Col>
             {/* <Link to='/project/1'>
@@ -120,7 +120,7 @@ const Projectpage = () => {
             </Link>
             <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/8'>
-              <Moreproject name="Leprosy Patient's Digital Database Website" id={8} />
+              <Moreproject name="Leprosy Website" id={8} />
             </Link>
             {/* <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/5'>
