@@ -116,7 +116,7 @@ const Design = styled.div`
     font-size: 20rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--green);
     bottom: 10%;
     left: 0%;

@@ -188,12 +188,16 @@ const Design = styled.div`
   overflow: hidden;
   height: 45vh;
 
+  @media (max-width: 1024px) {
+    height: 30vh;
+  }
+
   & > h2 {
     color: transparent;
-    font-size: 20rem;
+    font-size: 17rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--yellow);
     bottom: 9%;
     left: 0%;
@@ -204,7 +208,7 @@ const Design = styled.div`
   }
 
   & > img {
-    width: 50%;
+    width: 40%;
     position: absolute;
     right: -20%;
     height: auto;
@@ -292,10 +296,10 @@ const Design2 = styled(Design)`
 
   & > h2 {
     color: transparent;
-    font-size: 20rem;
+    font-size: 14rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--yellow);
     left: 0%;
 

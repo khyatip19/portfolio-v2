@@ -15,7 +15,7 @@ const PROJECTS_DATA = [
   {
     id: 7,
     name: "LeprosyDetect",
-    desc: "Using Mobile Technology to classify the leprosy type of a patient with Deep Learning. Medical applications are really difficult to imagine as they are prone to human errors. But, if the work of doctors and their staff is a little bit easier can help them in huge lengths. So, we continued our Leprosy Project ahead with the creation of a mobile application that can identify the Leprosy type of the patient by taking a photo of the affected part of the skin. This system uses Deep-Learning Models for classification & provides high accuracy for the identification. It is a wholesome experience for people as this app tries to solve every issue of Leprosy in one place itself.",
+    desc: "Using Mobile Technology to classify the leprosy type of a patient with Deep Learning. Medical applications are really difficult to imagine as they are prone to human errors. But, if the work of doctors and their staff is a little bit easier can help them in huge lengths. So, we continued our Leprosy Project ahead with the creation of a mobile application that can identify the Leprosy type of the patient by taking a photo of the affected part of the skin. This system uses Deep-Learning Models for classification & provides high accuracy for the identification. ",
     image: "/images/LeprosyApp.png",
     tech: [
       { class: "fab fa-js", name: "JS" },
@@ -28,7 +28,7 @@ const PROJECTS_DATA = [
   },
   {
     id: 8,
-    name: "Leprosy Patient's Digital Database Website",
+    name: "Leprosy Website",
     desc: "The digitizing of manual data is always a tough task as the system should be really simple to understand but equally capable of handling any kind of input and must not face any error. Add a level of difficulty to Medical Data, & this makes it as tough as the words, the kind of medical data that gets stored has to be accurate & error-less. This website was created with the users in mind, & is a collaboration between my college - Shah & Anchor Kutchhi Engineering College with renowned NGO Bombay Leprosy Project, and The International Leprosy Mission: Bangladesh. More details about this project can be found on my GitHub.",
     image: "/images/lep_web1.jpg",
     tech: ["Reactjs", "GSAP", "API"],

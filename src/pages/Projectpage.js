@@ -160,9 +160,9 @@ const Container = styled.div`
   }
 
   & > h2 {
-    margin-left: 5rem;
+    margin-left: 2rem;
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 `;

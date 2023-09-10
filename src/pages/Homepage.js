@@ -78,8 +78,12 @@ const Homepage = () => {
           My development stack is focused on building Scalable & incredible fast websites
           and Mobile Apps with delightful interactions.
         </h4>
-        <BG style={{ backgroundColor: 'rgb(0,0,0, 0.2)', top: '35%', left: '-12%' }}></BG> 
-            {/* <img style={{ width: '50%', height:'auto', position: 'absolute'}} src="/images/posef/hello_trans.png" alt="" /> */}
+        <BG style={{
+          backgroundColor: 'rgb(248,224,142, 0.3)',
+          top: '35%',
+          left: '-15%',
+        }}></BG>
+           <img style={{ width: '50%', height:'auto', position: 'absolute'}} src="/images/posef/see_here_trans.png" alt="" /> 
         <Circle data-aos='zoom-in' data-aos-delay='300' data-aos-duration='1000'>
           <Link to='/about'>
             <h2>Learn More</h2>
@@ -371,7 +375,7 @@ const Col = styled.div`
   }
 `;
 const ContainerA = styled.div`
-  overflow: hidden;
+/* overflow: hidden; */
   width: 100%;
   max-width: 1280px;
   min-height: 100vh;
@@ -386,6 +390,20 @@ const ContainerA = styled.div`
   @media (max-width: 1024px) {
     min-height: 30vh;
   }
+  & > img {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 40%;
+    left:-10%;
+    z-index: -2;
+    @media (max-width: 768px) {
+      margin: 2rem 0;
+      width: 90%;
+    }
+  }
+  
+  
 
   & > h3 {
     margin-left: auto;
@@ -405,6 +423,7 @@ const ContainerA = styled.div`
       width: 90%;
     }
   }
+
 
   & > h4 {
     margin: 4rem 0;
@@ -442,7 +461,7 @@ const Design = styled.div`
     font-size: 20rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--yellow);
     bottom: 10%;
     left: 0%;

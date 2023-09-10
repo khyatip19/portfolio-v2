@@ -41,16 +41,16 @@ const Humburger = ({ state, setState }) => {
         <Container>
           <ul>
             <li>
-              {/* <Link to='/work'>&lt;Works /&gt;</Link> */}
-              <Link to='/work'>Works </Link>
+              <Link to='/work'>&lt;Works /&gt;</Link>
+              {/* <Link to='/work'>Works </Link> */}
             </li>
             <li>
-              {/* <Link to='/about'>&lt;About Me /&gt;</Link> */}
-              <Link to='/about'>About Me </Link>
+              <Link to='/about'>&lt;About Me /&gt;</Link>
+              {/* <Link to='/about'>About Me </Link> */}
             </li>
             <li>
-              {/* <Link to='/contact'>&lt;Contact Me /&gt;</Link> */}
-              <Link to='/contact'>Contact Me </Link>
+              <Link to='/contact'>&lt;Contact Me /&gt;</Link>
+              {/* <Link to='/contact'>Contact Me </Link> */}
             </li>
           </ul>
           <Info>
@@ -108,7 +108,10 @@ const Burger = styled.div`
   }
   & > .menu-layer {
     position: relative;
-    background: var(--dark);
+    // background: var(--green);
+    // opacity: 0;
+    // background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0.5));
+    background: linear-gradient(to right, rgb(49,196,140, 0.9), rgb(255, 122, 89,0.6));
     /* background: url('/images/bg.svg'); */
     height: 100%;
     overflow: hidden;
