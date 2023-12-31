@@ -2,20 +2,29 @@ const PROJECTS_DATA = [
   {
     id: 6,
     name: "Cropifier",
-    desc: "Mobile Application that can classify the crop just from the field photo of that crop using Deep Learning. This is a project that I am hugely proud of. This is an application that we created as part of a national hackathon known as Smart India Hackathon 2020. The problem statement was given by the Indian Space Research Organization (ISRO). My team won this competition for our amazing idea & an equally great implementation of the system.",
+    desc: "This project involved development of an mobile application that can classify field crops using Deep Learning on a dataset of 19 different varieties of crops. This application was created as a solution to a problem statement given by Indian Space Research Organization (ISRO) in India's national hackathon known as Smart India Hackathon held in 2020. Our team won this competition for our amazing idea & an equally great implementation of the system.",
     image: "/images/Cropifier.png",
     tech: [
-      { class: "fab fa-react", name: "React" },
-      { class: "/images/redux.svg", name: "Redux" },
+      { class: "/images/java.svg", name: "Java" },
+      { class: "/images/python.svg", name: "Python" },
+      { class: "/images/tflite.svg", name: "TFlite" },
+      { class: "/images/firebase.svg", name: "Firebase" },
     ],
-    date: "Aug, 2020",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:6696722298541490176/?originTrackingId=ZWEtJhXvSfe3ufoC%2FPoa6w%3D%3D",
+    date: "Aug,2020",
+    // link: "https://www.linkedin.com/feed/update/urn:li:activity:6696722298541490176/?originTrackingId=ZWEtJhXvSfe3ufoC%2FPoa6w%3D%3D",
+    link: <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6696722213657186304" height="611" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>,
     type: "MobileApp",
+    features: [ 
+    { name: "Feature 1", description: "Description of Feature 1." },
+    { name: "Feature 2", description: "Description of Feature 2." },
+    { name: "Feature 3", description: "Description of Feature 3." },
+  ],
+    
   },
   {
     id: 7,
     name: "LeprosyDetect",
-    desc: "Using Mobile Technology to classify the leprosy type of a patient with Deep Learning. Medical applications are really difficult to imagine as they are prone to human errors. But, if the work of doctors and their staff is a little bit easier can help them in huge lengths. So, we continued our Leprosy Project ahead with the creation of a mobile application that can identify the Leprosy type of the patient by taking a photo of the affected part of the skin. This system uses Deep-Learning Models for classification & provides high accuracy for the identification. It is a wholesome experience for people as this app tries to solve every issue of Leprosy in one place itself.",
+    desc: "Using Mobile Technology to classify the leprosy type of a patient with Deep Learning. Medical applications are really difficult to imagine as they are prone to human errors. But, if the work of doctors and their staff is a little bit easier can help them in huge lengths. So, we continued our Leprosy Project ahead with the creation of a mobile application that can identify the Leprosy type of the patient by taking a photo of the affected part of the skin. This system uses Deep-Learning Models for classification & provides high accuracy for the identification. ",
     image: "/images/LeprosyApp.png",
     tech: [
       { class: "fab fa-js", name: "JS" },
@@ -28,13 +37,13 @@ const PROJECTS_DATA = [
   },
   {
     id: 8,
-    name: "Leprosy Patient's Digital Database Website",
+    name: "Leprosy Website",
     desc: "The digitizing of manual data is always a tough task as the system should be really simple to understand but equally capable of handling any kind of input and must not face any error. Add a level of difficulty to Medical Data, & this makes it as tough as the words, the kind of medical data that gets stored has to be accurate & error-less. This website was created with the users in mind, & is a collaboration between my college - Shah & Anchor Kutchhi Engineering College with renowned NGO Bombay Leprosy Project, and The International Leprosy Mission: Bangladesh. More details about this project can be found on my GitHub.",
     image: "/images/lep_web1.jpg",
     tech: ["Reactjs", "GSAP", "API"],
     date: "",
     link: "https://www.youtube.com/watch?v=4XM7Ws1j4dE",
-    type: "WebSite",
+    type: "Website",
   },
   {
     id: 1,

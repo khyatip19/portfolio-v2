@@ -71,7 +71,7 @@ const Projectpage = () => {
         </h2>
         <ProjectContact>
           <div>
-            <h1>Website Link</h1>
+            <h1>Project Link</h1>
             <a href={project && project.link} target='_blanc'>
               <h2>{project && project.link}</h2>
             </a>
@@ -79,6 +79,10 @@ const Projectpage = () => {
           <div>
             <h1>Project Date</h1>
             <h2>{project && project.date}</h2>
+          </div>
+          <div>
+            <h1>Project Type</h1>
+            <h2>{project && project.type}</h2>
           </div>
         </ProjectContact>
         <h1>Tech Used</h1>
@@ -92,11 +96,27 @@ const Projectpage = () => {
               </Circle>
             ))}
         </Tech>
+
+        <h1>Features</h1>
+        <Features>
+        {project && (
+        <ul style={{ fontSize: '16px' }}>
+          {project.features.map((t) => (
+            <li key={t.id} data-aos='zoom-in' data-aos-duration='1000' style={{ listStyleType: 'circle', margin: '5px', fontSize: '18px' }}>
+              <i className={t.class}></i>
+              <img src={t.class} alt='' />
+              <span>{t.name}</span>
+            </li>
+          ))}
+        </ul>
+        )}
+        </Features>
+
       </Container>
       <Container>
         <h2>
-          It was a fun project to work on. There were almost no constraints (eg. colors, typography, etc.). The communication went very smooth, from
-          initial discovery to branding and through the final revisions and delivery.
+          {/* It was a fun project to work on. There were almost no constraints (eg. colors, typography, etc.). The communication went very smooth, from
+          initial discovery to branding and through the final revisions and delivery. */}
         </h2>
         <h1>&lt; More Works /&gt;</h1>
         <Row>
@@ -108,7 +128,7 @@ const Projectpage = () => {
                 left: '-15%',
               }}
             ></BG>
-            <img src='/images/pose/pose_m14.png' alt='' />
+            <img src='/images/posef/tablet_trans.png' alt='' />
           </Col>
           <Col>
             {/* <Link to='/project/1'>
@@ -120,7 +140,7 @@ const Projectpage = () => {
             </Link>
             <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/8'>
-              <Moreproject name="Leprosy Patient's Digital Database Website" id={8} />
+              <Moreproject name="Leprosy Website" id={8} />
             </Link>
             {/* <hr data-aos='fade-right' data-aos-delay='100' data-aos-duration='1000' />
             <Link to='/project/5'>
@@ -160,9 +180,9 @@ const Container = styled.div`
   }
 
   & > h2 {
-    margin-left: 5rem;
+    margin-left: 2rem;
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 `;
@@ -187,6 +207,12 @@ const ProjectContact = styled.div`
 `;
 
 const Tech = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem;
+`;
+
+const Features = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 5rem;

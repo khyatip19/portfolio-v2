@@ -6,6 +6,8 @@ import { isMobile } from 'react-device-detect';
 // import Project from "../components/Project";
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
+import Moreproject from '../components/Moreproject';
+import Project from '../components/Project';
 
 const Homepage = () => {
   const [offesetY, setOffsetY] = useState(0);
@@ -50,7 +52,7 @@ const Homepage = () => {
           </h3>
           {/* <Button text="Contact" /> */}
           <BG style={{ backgroundColor: '#FEECEA' }} data-aos='zoom-in' data-aos-duration='2000'></BG>
-          <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m18.png' alt='' />
+          <img data-aos='zoom-in' data-aos-duration='2000' style={{left: '55%', width: '50%', height:'auto'}} src='/images/posef/hello_trans.png' alt='' />
         </LeftHero>
       </Container>
 
@@ -63,17 +65,25 @@ const Homepage = () => {
             &lt;About /&gt;
           </h2>
         </Design>
+        
         <h3 data-aos='fade-up' data-aos-delay='300' data-aos-duration='1000'>
           {/* I am a full-stack creative developer based in Mumbai, India.  */}
           I love building mobile apps and websites.
           I am an<span> Information Technology</span> undergraduate from Mumbai University.
           {/* and also did some coursework in UI/UX and SEO. */}
         </h3>
+
         <h4 data-aos='fade-up' data-aos-delay='450' data-aos-duration='1000'>
           I enjoy using my skills to empower people to achieve goals. 
           My development stack is focused on building Scalable & incredible fast websites
           and Mobile Apps with delightful interactions.
         </h4>
+        <BG style={{
+          backgroundColor: 'rgb(248,224,142, 0.3)',
+          top: '35%',
+          left: '-15%',
+        }}></BG>
+           <img style={{ width: '50%', height:'auto', position: 'absolute'}} src="/images/posef/see_here_trans.png" alt="" /> 
         <Circle data-aos='zoom-in' data-aos-delay='300' data-aos-duration='1000'>
           <Link to='/about'>
             <h2>Learn More</h2>
@@ -83,8 +93,38 @@ const Homepage = () => {
 
       <ContainerLarge>
         <h1>Selected Projects</h1>
-        {/* <Row>
-          <Col
+        <Row>
+        <Col
+            style={{
+              transform: `translateY(${offesetY * 0.08}px)`,
+            }}
+          >
+                        <Link to="/project/6">
+              <Project
+                height="60vh"
+                image="/images/Cropifier.png"
+                position="left"
+                name="Cropifier"
+                type="Website"
+              />
+            </Link>
+          </Col>
+        <Col
+            style={{
+              transform: `translateY(-${offesetY * 0.05}px)`,
+            }}
+          >
+            <Link to="/project/8">
+              <Project
+                height="50vh"
+                image="/images/lep_web1.jpg"
+                position="left"
+                name="Leprosy Website"
+                type="WebApp"
+              />
+            </Link>
+          </Col>
+          {/* <Col
             style={{
               transform: `translateY(${offesetY * 0.08}px)`,
             }}
@@ -98,9 +138,9 @@ const Homepage = () => {
                 type="WebApp"
               />
             </Link>
-          </Col>
+          </Col> */}
 
-          <Col
+          {/* <Col
             style={{
               transform: `translateY(-${offesetY * 0.05}px)`,
             }}
@@ -114,42 +154,28 @@ const Homepage = () => {
                 type="WebApp"
               />
             </Link>
-          </Col>
-        </Row>
-        <Row>
-          <Col
+          </Col> */}
+        </Row> 
+        {/* <Row> */}
+          {/* <Col
             style={{
               transform: `translateY(${offesetY * 0.08}px)`,
             }}
           >
-            <Link to="/project/6">
+                        <Link to="/project/6">
               <Project
                 height="60vh"
-                image="/images/6.jpg"
+                image="/images/Cropifier.png"
                 position="left"
-                name="Portfolio 2019"
+                name="Cropifier"
                 type="Website"
               />
             </Link>
-          </Col>
-          <Col
-            style={{
-              transform: `translateY(-${offesetY * 0.05}px)`,
-            }}
-          >
-            <Link to="/project/2">
-              <Project
-                height="50vh"
-                image="/images/2.jpg"
-                position="left"
-                name="TrackerX"
-                type="WebApp"
-              />
-            </Link>
-          </Col>
-        </Row>
-        <Row>
-          <Col
+          </Col> */}
+          
+        {/* </Row>
+        <Row> */}
+          {/* <Col
             style={{
               transform: `translateY(${offesetY * 0.08}px)`,
             }}
@@ -157,14 +183,14 @@ const Homepage = () => {
             <Link to="/project/7">
               <Project
                 height="50vh"
-                image="/images/7.jpg"
+                image="/images/LeprosyApp.png"
                 position="left"
-                name="TrackIt"
+                name="LeprosyDetect"
                 type="WebApp"
               />
             </Link>
-          </Col>
-          <Col
+          </Col> */}
+          {/* <Col
             style={{
               transform: `translateY(-${offesetY * 0.05}px)`,
             }}
@@ -178,8 +204,8 @@ const Homepage = () => {
                 type="WebSite"
               />
             </Link>
-          </Col>
-        </Row> */}
+          </Col> */}
+        {/* </Row> */}
         <Circle data-aos='zoom-in' data-aos-delay='300' data-aos-duration='1000'>
           <Link to='/work'>
             <h2>View All</h2>
@@ -189,22 +215,22 @@ const Homepage = () => {
 
       <Container3>
         <Wrapper>
-          <h1 data-aos='fade-in' data-aos-duration='2000'>
-            I’m currently working with <br /> <span>Capgemini (India)</span>.
-          </h1>
+          {/* <h1 data-aos='fade-in' data-aos-duration='2000'>
+            I have worked with <br /> <span>Capgemini (India)</span>.
+          </h1> */}
           <h1 data-aos='fade-in' data-aos-duration='2000'>
             <span>Let’s work together</span> to create something worth sharing.
           </h1>
+          <h3></h3>
           <BG
             data-aos='zoom-in'
             data-aos-duration='2000'
             style={{
               backgroundColor: 'rgb(49,196,140, 0.2)',
-              top: '15%',
               left: '60%',
             }}
           ></BG>
-          <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m13.png' alt='' />
+          <img data-aos='zoom-in' data-aos-duration='2000' style={{left: '65%', width: '50%', height:'auto'}} src='/images/posef/dancing_trans.png' alt='' />
           <Link to='/contact'>
             <Button text='Connect Now' color='var(--green)' />
           </Link>
@@ -349,7 +375,7 @@ const Col = styled.div`
   }
 `;
 const ContainerA = styled.div`
-  overflow: hidden;
+/* overflow: hidden; */
   width: 100%;
   max-width: 1280px;
   min-height: 100vh;
@@ -364,6 +390,20 @@ const ContainerA = styled.div`
   @media (max-width: 1024px) {
     min-height: 30vh;
   }
+  & > img {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 40%;
+    left:-10%;
+    z-index: -2;
+    @media (max-width: 768px) {
+      margin: 2rem 0;
+      width: 90%;
+    }
+  }
+  
+  
 
   & > h3 {
     margin-left: auto;
@@ -383,6 +423,7 @@ const ContainerA = styled.div`
       width: 90%;
     }
   }
+
 
   & > h4 {
     margin: 4rem 0;
@@ -420,7 +461,7 @@ const Design = styled.div`
     font-size: 20rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--yellow);
     bottom: 10%;
     left: 0%;
@@ -532,7 +573,7 @@ const LeftHero = styled.div`
 
   & > img {
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: auto;
     left: 70%;
     z-index: -2;
@@ -555,5 +596,8 @@ const BG = styled.div`
   border-radius: 50%;
   z-index: -5;
 `;
+
+
+
 
 export default Homepage;

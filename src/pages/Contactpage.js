@@ -17,8 +17,9 @@ const Contactpage = () => {
             &lt;Contact /&gt;
           </h2>
         </Design>
-        <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m12.png' alt='' />
-        {/* <span>
+        <BG style={{ backgroundColor: '#FEECEA' }} data-aos='zoom-in' data-aos-duration='2000'></BG>
+        <img data-aos='zoom-in' data-aos-duration='2000' style={{left: '65%', width:'45%', top:'10%', height:'auto'}} src='/images/posef/tablet_trans.png' alt='' />
+        {/* <span>left: '65%', width: '50%', height:'auto'
           <a
             href="https://drive.google.com/file/d/1r5z5b76Gd1xCsxYzIGasYC8snlVN8fpw/view?usp=sharing"
             target="_blan"
@@ -62,10 +63,11 @@ const Design = styled.div`
     font-size: 20rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--yellow);
     bottom: 10%;
     left: 0%;
+    
 
     @media (max-width: 768px) {
       font-size: 11rem;
@@ -73,7 +75,7 @@ const Design = styled.div`
   }
 
   & > h1 {
-    font-size: 15rem;
+    font-size: 12rem;
     font-weight: 500;
     position: absolute;
     z-index: 3;
@@ -98,16 +100,18 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  overflow: hidden;
+  // overflow: hidden;
 
+  @media (max-width: 1024px) {
+    min-height: 30vh;
+  }
   & > span > a {
-    font-size: 5rem;
+    font-size: 4rem;
     text-decoration: none;
     color: #191919;
 
     &:hover {
-      text-decoration: underline;
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 
@@ -119,9 +123,11 @@ const Container = styled.div`
     font-size: 3rem;
   }
 
+  
+
   & > img {
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: auto;
     left: 70%;
     z-index: -2;
@@ -130,6 +136,14 @@ const Container = styled.div`
       width: 80%;
     }
   }
+`;
+const BG = styled.div`
+  position: absolute;
+  left: 53%;
+  width: 70rem;
+  height: 70rem;
+  border-radius: 50%;
+  z-index: -5;
 `;
 
 export default Contactpage;

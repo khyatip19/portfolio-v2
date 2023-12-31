@@ -20,7 +20,7 @@ const Workpage = () => {
             &lt;Work /&gt;
           </h2>
         </Design>
-        <img data-aos='zoom-in' data-aos-duration='2000' src='/images/pose/pose_m19.png' alt='' />
+        <img data-aos='zoom-in' data-aos-duration='2000'  style={{left: '55%', top:'5%', height:'auto'}} src='/images/posef/working2_trans.png' alt='' />
         <h3 data-aos='fade-up' data-aos-delay='2000' data-aos-duration='1000'>
           A collection of front-end, full-stack Coding. These are a mix of practice and side projects.
         </h3>
@@ -46,7 +46,7 @@ const Workpage = () => {
               data-aos-duration="1000"
             />
             <Link to="/project/8">
-              <Moreproject name="Leprosy Patient's Digital Database Website" id={8} />
+              <Moreproject name="Leprosy Website" id={8} />
             </Link>
             {/* <hr
               data-aos="fade-right"
@@ -109,14 +109,14 @@ const Work = styled.div`
 const Design = styled.div`
   position: relative;
   overflow: hidden;
-  height: 35vh;
+  height: 50vh;
 
   & > h2 {
     color: transparent;
     font-size: 20rem;
     position: absolute;
     z-index: -3;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--green);
     bottom: 10%;
     left: 0%;
@@ -127,7 +127,7 @@ const Design = styled.div`
   }
 
   & > h1 {
-    font-size: 15rem;
+    font-size: 12rem;
     font-weight: 500;
     position: absolute;
     z-index: 0;
@@ -143,7 +143,7 @@ const Design = styled.div`
 const Container = styled.div`
   overflow: hidden;
   width: 100%;
-  max-width: 1580px;
+  max-width: 1280px;
   min-height: 100vh;
   margin: 0 auto;
   position: relative;
@@ -170,7 +170,7 @@ const Container = styled.div`
   }
 
   & > h3 {
-    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     text-align: left;
     font-weight: 400;
